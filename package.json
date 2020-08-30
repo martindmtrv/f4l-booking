@@ -1,0 +1,13 @@
+{
+  "name": "f4l-booking",
+  "version": "1.0.0",
+  "main": "app.js",
+  "repository": "https://github.com/martindmtrv/f4l-booking.git",
+  "author": "martindmtrv <mdimitrov@apployees.com>",
+  "license": "MIT",
+  "dependencies": {
+    "fetch-cookie": "^0.10.0",
+    "node-fetch": "^2.6.0",
+    "node-html-parser": "^1.2.20"
+  }
+}
