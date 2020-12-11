@@ -1,7 +1,7 @@
 import { CLUBS } from "./clubs";
-
 const nodeFetch = require("node-fetch");
 const fetch = require("fetch-cookie/node-fetch")(nodeFetch);
+
 const HTMLParser = require('node-html-parser');
 
 const LOGIN_URL = "https://myfit4less.gymmanager.com/portal/login_done.asp";
@@ -72,7 +72,7 @@ export class Fit4LessApi {
     }
 
     formatDateAndIncrement(date) {
-        date.setDate(date.getDate() + 2);
+        date.setDate(date.getDate() + 1);
         return date.toISOString().slice(0,10);
     }
 
